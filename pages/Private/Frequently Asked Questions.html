@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - OmexAI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            margin-top: 20px;
+        }
+        section h2 {
+            color: #006400; /* Dark green color */
+        }
+        section p {
+            line-height: 1.6;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-item h3 {
+            color: #006400;
+            cursor: pointer;
+        }
+        .faq-item p {
+            display: none;
+        }
+        .cta-section {
+            background-color: #e9ecef;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .cta-section a {
+            text-decoration: none;
+            background-color: #006400;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        /* Media queries for mobile devices */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 10px;
+            }
+            header {
+                padding: 15px 0;
+            }
+            section h2 {
+                font-size: 1.5em;
+            }
+            body {
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+            section h2 {
+                font-size: 1.3em;
+            }
+            body {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+    <script>
+        function toggleAnswer(index) {
+            const answer = document.getElementById('answer-' + index);
+            if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+            } else {
+                answer.style.display = 'block';
+            }
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>Frequently Asked Questions</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Find Answers to Your Questions</h2>
+        <p>At <strong>OmexAI</strong>, we understand that users may have questions about our proxy services and products. This FAQ section aims to provide clear and concise answers to some of the most commonly asked questions. Whether you're new to proxies or an experienced user, you'll find useful information to help you set up and use proxies effectively. Explore the questions below to find the answers you're looking for.</p>
+    </section>
+
+    <section>
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer(1)">1. What are proxies and how do they work?</h3>
+            <p id="answer-1">Proxies are intermediaries between your device and the internet. When you connect to a proxy server, your web traffic is routed through the proxy, masking your real IP address and providing you with a different IP. This helps with anonymity, security, and access to geo-blocked content.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer(2)">2. How do I set up a proxy on my device?</h3>
+            <p id="answer-2">Setting up a proxy depends on your device and the platform you’re using. In most cases, you can configure proxies in your browser settings or at the system level by navigating to your network settings and entering the proxy details provided by OmexAI. We also provide detailed setup guides for various devices.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer(3)">3. What’s the difference between static and dynamic proxies?</h3>
+            <p id="answer-3">Static proxies provide a fixed IP address that remains constant throughout your session. This is useful for tasks that require a stable connection. Dynamic proxies, on the other hand, change your IP address regularly, making it harder to track your activity and ideal for situations requiring a high level of anonymity.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer(4)">4. How do I choose between residential, mobile, and data center proxies?</h3>
+            <p id="answer-4">Residential proxies use IPs from real homes, offering the highest level of anonymity and authenticity. Mobile proxies use IPs assigned by mobile carriers, making them perfect for mobile traffic simulations. Data center proxies are faster and more affordable, but they may be detected more easily. Choose based on your specific needs.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer(5)">5. Can I use OmexAI proxies for social media management?</h3>
+            <p id="answer-5">Yes! OmexAI proxies are perfect for managing multiple social media accounts without being flagged. Our residential and mobile proxies, in particular, are highly recommended for social media platforms since they mimic real user behavior.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer(6)">6. How do I switch between different proxy servers?</h3>
+            <p id="answer-6">Switching between proxy servers is simple. If you're using a proxy management tool or browser extension, you can easily change the proxy IP within the tool. Alternatively, you can update the proxy settings manually by entering new proxy credentials in your device or browser settings.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer(7)">7. What is time-based bandwidth and how does it work?</h3>
+            <p id="answer-7">Time-based bandwidth charges you based on the amount of time you use the proxy service rather than the volume of data you transfer. This model is perfect for users who need temporary or short-term access without worrying about exceeding data limits.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer(8)">8. How can I ensure my proxy connection is secure?</h3>
+            <p id="answer-8">To ensure a secure connection, make sure you’re using a reputable proxy provider like OmexAI. Additionally, always verify that your connection is encrypted (for example, via HTTPS), and regularly update your proxy settings to keep them secure. Using our QuantumShield Proxies provides an even higher level of encryption and security.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer(9)">9. Can I use OmexAI proxies for scraping data?</h3>
+            <p id="answer-9">Yes, OmexAI proxies are ideal for data scraping, especially if you need to gather information from websites that block repeated access. Our dynamic proxies help you avoid detection, and our residential and mobile proxies mimic real user traffic, reducing the likelihood of being blocked.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer(10)">10. What should I do if my proxy stops working?</h3>
+            <p id="answer-10">If your proxy stops working, try switching to a different server or re-entering your proxy credentials. Make sure that your proxy service is active and your connection settings are correct. If the issue persists, contact our 24/7 support team for assistance.</p>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <p><strong>Still have questions?</strong></p>
+        <a href="#">Contact Our Support Team</a>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 OmexAI | All rights reserved</p>
+</footer>
+
+</body>
+</html>
+
