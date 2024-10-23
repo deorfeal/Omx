@@ -1,177 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API Documentation - OmexAI</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-        }
-        header {
-            background-color: #343a40;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        section {
-            margin-top: 20px;
-        }
-        section h2 {
-            color: #006400; /* Dark green color */
-        }
-        section p {
-            line-height: 1.6;
-        }
-        .advantages ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        .advantages ul li {
-            margin-bottom: 10px;
-        }
-        .cta-section {
-            background-color: #e9ecef;
-            padding: 20px;
-            text-align: center;
-            border-radius: 8px;
-            margin-top: 30px;
-        }
-        .cta-section a {
-            text-decoration: none;
-            background-color: #006400;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-        }
-        footer {
-            background-color: #343a40;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            margin-top: 20px;
-        }
-
-        /* Media queries for mobile devices */
-        @media (max-width: 768px) {
-            .container {
-                width: 95%;
-                padding: 10px;
-            }
-            header {
-                padding: 15px 0;
-            }
-            section h2 {
-                font-size: 1.5em;
-            }
-            body {
-                font-size: 1em;
-            }
-        }
-
-        @media (max-width: 480px) {
-            header h1 {
-                font-size: 1.5em;
-            }
-            section h2 {
-                font-size: 1.3em;
-            }
-            body {
-                font-size: 0.9em;
-            }
-        }
-    </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.min.css">
 </head>
+
 <body>
 
-<header>
-    <h1>API Documentation</h1>
-</header>
+    <div class="content-page">
+        <header>
+            <h1>API Documentation</h1>
+        </header>
 
-<div class="container">
-    <section>
-        <h2>Comprehensive API Documentation for Developers</h2>
-        <p>On the <strong>OmexAI</strong> platform by <strong>Omex Data</strong>, we offer detailed API documentation to help developers make the most of our tools. Our documentation includes clear and simple instructions, comprehensive examples, and step-by-step guides that make it easy to understand and start using our API quickly. Whether you're an experienced developer or just getting started, our documentation provides the resources you need to integrate seamlessly and maximize the effectiveness of our API.</p>
-        <p>With a focus on clarity and usability, our API documentation covers everything from basic setup to advanced integration techniques. We aim to make the development process as smooth as possible, helping you unlock the full potential of OmexAI’s tools with minimal effort.</p>
-    </section>
+         <div class="container">
+            <div class="main__bg bg">
+                <img class="bg__img" src="../../images/page-bg.png" alt="bg">
+                <img class="bg__img" src="../../images/mob-bg.png" alt="bg">
+            </div>
+            <section>
+                <h2>Comprehensive API Documentation for Developers</h2>
+                <p>On the <strong>OmexAI</strong> platform by <strong>Omex Data</strong>, we offer detailed API
+                    documentation to help developers make the most of our tools. Our documentation includes clear and
+                    simple instructions, comprehensive examples, and step-by-step guides that make it easy to understand
+                    and start using our API quickly. Whether you're an experienced developer or just getting started,
+                    our documentation provides the resources you need to integrate seamlessly and maximize the
+                    effectiveness of our API.</p>
+                <p>With a focus on clarity and usability, our API documentation covers everything from basic setup to
+                    advanced integration techniques. We aim to make the development process as smooth as possible,
+                    helping you unlock the full potential of OmexAI’s tools with minimal effort.</p>
+            </section>
 
-    <section>
-        <h2>Why Use OmexAI’s API Documentation?</h2>
-        <p>Good documentation is key to a successful integration, and at OmexAI, we’ve crafted our API documentation with developers in mind. From simple instructions to comprehensive examples, our documentation provides a clear path to getting started with our API, enabling you to unlock powerful features quickly and efficiently.</p>
-        <p>Our API documentation is essential for:</p>
-        <ul>
-            <li>Understanding the full range of features and capabilities offered by our API</li>
-            <li>Learning how to authenticate, connect, and make API requests effectively</li>
-            <li>Exploring code samples and examples that demonstrate best practices</li>
-            <li>Accessing step-by-step guides for common use cases and scenarios</li>
-            <li>Troubleshooting issues with detailed error descriptions and resolutions</li>
-        </ul>
-    </section>
+            <section>
+                <h2>Why Use OmexAI’s API Documentation?</h2>
+                <p>Good documentation is key to a successful integration, and at OmexAI, we’ve crafted our API
+                    documentation with developers in mind. From simple instructions to comprehensive examples, our
+                    documentation provides a clear path to getting started with our API, enabling you to unlock powerful
+                    features quickly and efficiently.</p>
+                <p>Our API documentation is essential for:</p>
+                <ul>
+                    <li>Understanding the full range of features and capabilities offered by our API</li>
+                    <li>Learning how to authenticate, connect, and make API requests effectively</li>
+                    <li>Exploring code samples and examples that demonstrate best practices</li>
+                    <li>Accessing step-by-step guides for common use cases and scenarios</li>
+                    <li>Troubleshooting issues with detailed error descriptions and resolutions</li>
+                </ul>
+            </section>
 
-    <section>
-        <h2>Key Features of Our API Documentation</h2>
-        <div class="advantages">
-            <ul>
-                <li><strong>Clear and Simple Instructions:</strong> Our documentation provides straightforward instructions that guide you through each step of the integration process, ensuring a smooth and error-free experience.</li>
-                <li><strong>Comprehensive Code Examples:</strong> We include code samples in multiple programming languages, helping developers quickly implement the features they need.</li>
-                <li><strong>Step-by-Step Guides:</strong> Our documentation offers detailed guides for common scenarios, making it easy to implement standard use cases and workflows.</li>
-                <li><strong>Advanced Integration Techniques:</strong> Explore advanced topics and techniques to make the most of our API, from handling complex data requests to optimizing performance.</li>
-                <li><strong>Detailed Error Descriptions:</strong> We provide thorough error descriptions and troubleshooting steps to help you quickly resolve issues and keep your project on track.</li>
-            </ul>
+            <section>
+                <h2>Key Features of Our API Documentation</h2>
+                <div class="advantages">
+                    <ul>
+                        <li><strong>Clear and Simple Instructions:</strong> Our documentation provides straightforward
+                            instructions that guide you through each step of the integration process, ensuring a smooth
+                            and error-free experience.</li>
+                        <li><strong>Comprehensive Code Examples:</strong> We include code samples in multiple
+                            programming languages, helping developers quickly implement the features they need.</li>
+                        <li><strong>Step-by-Step Guides:</strong> Our documentation offers detailed guides for common
+                            scenarios, making it easy to implement standard use cases and workflows.</li>
+                        <li><strong>Advanced Integration Techniques:</strong> Explore advanced topics and techniques to
+                            make the most of our API, from handling complex data requests to optimizing performance.
+                        </li>
+                        <li><strong>Detailed Error Descriptions:</strong> We provide thorough error descriptions and
+                            troubleshooting steps to help you quickly resolve issues and keep your project on track.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Use Cases for API Documentation</h2>
+                <p>Our API documentation is designed to cater to the diverse needs of developers and businesses. Some
+                    common use cases include:</p>
+                <ul>
+                    <li><strong>Rapid Integration:</strong> Developers looking to quickly integrate our API into their
+                        projects can follow our clear instructions and code examples to get up and running fast.</li>
+                    <li><strong>Feature Exploration:</strong> Businesses and developers can explore the full
+                        capabilities of our API, discovering new features and opportunities to enhance their
+                        applications.</li>
+                    <li><strong>Custom Implementations:</strong> For projects with unique requirements, our
+                        documentation provides the flexibility to explore custom implementations and tailor the API to
+                        your needs.</li>
+                    <li><strong>Technical Troubleshooting:</strong> Resolve technical challenges with ease using our
+                        detailed error descriptions, troubleshooting steps, and examples of common pitfalls and
+                        solutions.</li>
+                    <li><strong>Best Practice Guidance:</strong> Follow our guides and examples to adhere to best
+                        practices, ensuring efficient and reliable API usage across your projects.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Why Choose OmexAI’s API Documentation?</h2>
+                <p>At OmexAI, we understand the importance of well-crafted documentation for successful API integration.
+                    That’s why we’ve designed our API documentation to be clear, comprehensive, and developer-friendly.
+                    Here’s why developers choose OmexAI for their API needs:</p>
+                <ul>
+                    <li><strong>Comprehensive Coverage:</strong> Our documentation covers all aspects of our API, from
+                        basic setup to advanced features, ensuring you have the information you need.</li>
+                    <li><strong>User-Friendly Design:</strong> The documentation is organized in a clear and intuitive
+                        way, making it easy to find the information and examples you’re looking for.</li>
+                    <li><strong>Interactive Examples:</strong> Explore interactive examples and code snippets to see our
+                        API in action and experiment with different requests and responses.</li>
+                    <li><strong>Dedicated Developer Support:</strong> We provide dedicated support to assist developers
+                        with any issues or questions they may have while integrating our API.</li>
+                    <li><strong>Regular Updates:</strong> Our documentation is continuously updated to reflect the
+                        latest features, changes, and improvements, ensuring that you always have access to the most
+                        current information.</li>
+                </ul>
+                <p>With OmexAI’s API documentation, developers can integrate our tools confidently and efficiently,
+                    gaining access to the features and functionality they need to achieve their goals.</p>
+            </section>
+
+            <section>
+                <h2>How to Get Started with Our API Documentation?</h2>
+                <p>Getting started with OmexAI’s API documentation is easy. Sign up on our platform, explore the
+                    detailed guides and examples, and start integrating our powerful API into your projects. We provide
+                    full support and comprehensive documentation to help you achieve success quickly and efficiently.
+                </p>
+                <div class="cta-section">
+                    <p><strong>Ready to explore detailed API documentation?</strong></p>
+                    <a href="#">
+                        <div>
+                            <span>
+                                Read Documentation
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </section>
         </div>
-    </section>
 
-    <section>
-        <h2>Use Cases for API Documentation</h2>
-        <p>Our API documentation is designed to cater to the diverse needs of developers and businesses. Some common use cases include:</p>
-        <ul>
-            <li><strong>Rapid Integration:</strong> Developers looking to quickly integrate our API into their projects can follow our clear instructions and code examples to get up and running fast.</li>
-            <li><strong>Feature Exploration:</strong> Businesses and developers can explore the full capabilities of our API, discovering new features and opportunities to enhance their applications.</li>
-            <li><strong>Custom Implementations:</strong> For projects with unique requirements, our documentation provides the flexibility to explore custom implementations and tailor the API to your needs.</li>
-            <li><strong>Technical Troubleshooting:</strong> Resolve technical challenges with ease using our detailed error descriptions, troubleshooting steps, and examples of common pitfalls and solutions.</li>
-            <li><strong>Best Practice Guidance:</strong> Follow our guides and examples to adhere to best practices, ensuring efficient and reliable API usage across your projects.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Why Choose OmexAI’s API Documentation?</h2>
-        <p>At OmexAI, we understand the importance of well-crafted documentation for successful API integration. That’s why we’ve designed our API documentation to be clear, comprehensive, and developer-friendly. Here’s why developers choose OmexAI for their API needs:</p>
-        <ul>
-            <li><strong>Comprehensive Coverage:</strong> Our documentation covers all aspects of our API, from basic setup to advanced features, ensuring you have the information you need.</li>
-            <li><strong>User-Friendly Design:</strong> The documentation is organized in a clear and intuitive way, making it easy to find the information and examples you’re looking for.</li>
-            <li><strong>Interactive Examples:</strong> Explore interactive examples and code snippets to see our API in action and experiment with different requests and responses.</li>
-            <li><strong>Dedicated Developer Support:</strong> We provide dedicated support to assist developers with any issues or questions they may have while integrating our API.</li>
-            <li><strong>Regular Updates:</strong> Our documentation is continuously updated to reflect the latest features, changes, and improvements, ensuring that you always have access to the most current information.</li>
-        </ul>
-        <p>With OmexAI’s API documentation, developers can integrate our tools confidently and efficiently, gaining access to the features and functionality they need to achieve their goals.</p>
-    </section>
-
-    <section>
-        <h2>How to Get Started with Our API Documentation?</h2>
-        <p>Getting started with OmexAI’s API documentation is easy. Sign up on our platform, explore the detailed guides and examples, and start integrating our powerful API into your projects. We provide full support and comprehensive documentation to help you achieve success quickly and efficiently.</p>
-        <div class="cta-section">
-            <p><strong>Ready to explore detailed API documentation?</strong></p>
-            <a href="#">Read Documentation</a>
-        </div>
-    </section>
-</div>
-
-<footer>
-    <p>&copy; 2024 OmexAI | All rights reserved</p>
-</footer>
+        <footer>
+            <p>&copy; 2024 OmexAI | All rights reserved</p>
+        </footer>
+    </div>
 
 </body>
-</html>
 
+</html>
